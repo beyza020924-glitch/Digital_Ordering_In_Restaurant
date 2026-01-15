@@ -1,0 +1,194 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\RestaurantOrderApp\\RestaurantOrderApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{14FEA59F-A096-4CAD-8318-EC00CFF7D583}|RestaurantOrderApp\\RestaurantOrderApp.csproj|d:\\restaurantorderapp\\restaurantorderapp\\restaurantorderapp\\pages\\order.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14FEA59F-A096-4CAD-8318-EC00CFF7D583}|RestaurantOrderApp\\RestaurantOrderApp.csproj|solutionrelative:restaurantorderapp\\pages\\order.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14FEA59F-A096-4CAD-8318-EC00CFF7D583}|RestaurantOrderApp\\RestaurantOrderApp.csproj|d:\\restaurantorderapp\\restaurantorderapp\\restaurantorderapp\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14FEA59F-A096-4CAD-8318-EC00CFF7D583}|RestaurantOrderApp\\RestaurantOrderApp.csproj|solutionrelative:restaurantorderapp\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14FEA59F-A096-4CAD-8318-EC00CFF7D583}|RestaurantOrderApp\\RestaurantOrderApp.csproj|d:\\restaurantorderapp\\restaurantorderapp\\restaurantorderapp\\pages\\order.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14FEA59F-A096-4CAD-8318-EC00CFF7D583}|RestaurantOrderApp\\RestaurantOrderApp.csproj|solutionrelative:restaurantorderapp\\pages\\order.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14FEA59F-A096-4CAD-8318-EC00CFF7D583}|RestaurantOrderApp\\RestaurantOrderApp.csproj|d:\\restaurantorderapp\\restaurantorderapp\\restaurantorderapp\\models\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14FEA59F-A096-4CAD-8318-EC00CFF7D583}|RestaurantOrderApp\\RestaurantOrderApp.csproj|solutionrelative:restaurantorderapp\\models\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14FEA59F-A096-4CAD-8318-EC00CFF7D583}|RestaurantOrderApp\\RestaurantOrderApp.csproj|d:\\restaurantorderapp\\restaurantorderapp\\restaurantorderapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14FEA59F-A096-4CAD-8318-EC00CFF7D583}|RestaurantOrderApp\\RestaurantOrderApp.csproj|solutionrelative:restaurantorderapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14FEA59F-A096-4CAD-8318-EC00CFF7D583}|RestaurantOrderApp\\RestaurantOrderApp.csproj|d:\\restaurantorderapp\\restaurantorderapp\\restaurantorderapp\\pages\\foodsearch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14FEA59F-A096-4CAD-8318-EC00CFF7D583}|RestaurantOrderApp\\RestaurantOrderApp.csproj|solutionrelative:restaurantorderapp\\pages\\foodsearch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14FEA59F-A096-4CAD-8318-EC00CFF7D583}|RestaurantOrderApp\\RestaurantOrderApp.csproj|d:\\restaurantorderapp\\restaurantorderapp\\restaurantorderapp\\pages\\categoryfoods.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14FEA59F-A096-4CAD-8318-EC00CFF7D583}|RestaurantOrderApp\\RestaurantOrderApp.csproj|solutionrelative:restaurantorderapp\\pages\\categoryfoods.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14FEA59F-A096-4CAD-8318-EC00CFF7D583}|RestaurantOrderApp\\RestaurantOrderApp.csproj|d:\\restaurantorderapp\\restaurantorderapp\\restaurantorderapp\\pages\\foods.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14FEA59F-A096-4CAD-8318-EC00CFF7D583}|RestaurantOrderApp\\RestaurantOrderApp.csproj|solutionrelative:restaurantorderapp\\pages\\foods.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14FEA59F-A096-4CAD-8318-EC00CFF7D583}|RestaurantOrderApp\\RestaurantOrderApp.csproj|d:\\restaurantorderapp\\restaurantorderapp\\restaurantorderapp\\pages\\categories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14FEA59F-A096-4CAD-8318-EC00CFF7D583}|RestaurantOrderApp\\RestaurantOrderApp.csproj|solutionrelative:restaurantorderapp\\pages\\categories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14FEA59F-A096-4CAD-8318-EC00CFF7D583}|RestaurantOrderApp\\RestaurantOrderApp.csproj|d:\\restaurantorderapp\\restaurantorderapp\\restaurantorderapp\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{14FEA59F-A096-4CAD-8318-EC00CFF7D583}|RestaurantOrderApp\\RestaurantOrderApp.csproj|solutionrelative:restaurantorderapp\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "style.css",
+              "DocumentMoniker": "D:\\RestaurantOrderApp\\RestaurantOrderApp\\RestaurantOrderApp\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "RestaurantOrderApp\\wwwroot\\css\\style.css",
+              "ToolTip": "D:\\RestaurantOrderApp\\RestaurantOrderApp\\RestaurantOrderApp\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "RestaurantOrderApp\\wwwroot\\css\\style.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-09T12:26:46.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Categories.cshtml",
+              "DocumentMoniker": "D:\\RestaurantOrderApp\\RestaurantOrderApp\\RestaurantOrderApp\\Pages\\Categories.cshtml",
+              "RelativeDocumentMoniker": "RestaurantOrderApp\\Pages\\Categories.cshtml",
+              "ToolTip": "D:\\RestaurantOrderApp\\RestaurantOrderApp\\RestaurantOrderApp\\Pages\\Categories.cshtml",
+              "RelativeToolTip": "RestaurantOrderApp\\Pages\\Categories.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAIwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T12:26:19.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoryFoods.cshtml",
+              "DocumentMoniker": "D:\\RestaurantOrderApp\\RestaurantOrderApp\\RestaurantOrderApp\\Pages\\CategoryFoods.cshtml",
+              "RelativeDocumentMoniker": "RestaurantOrderApp\\Pages\\CategoryFoods.cshtml",
+              "ToolTip": "D:\\RestaurantOrderApp\\RestaurantOrderApp\\RestaurantOrderApp\\Pages\\CategoryFoods.cshtml",
+              "RelativeToolTip": "RestaurantOrderApp\\Pages\\CategoryFoods.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAAEcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T12:26:06.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FoodSearch.cshtml",
+              "DocumentMoniker": "D:\\RestaurantOrderApp\\RestaurantOrderApp\\RestaurantOrderApp\\Pages\\FoodSearch.cshtml",
+              "RelativeDocumentMoniker": "RestaurantOrderApp\\Pages\\FoodSearch.cshtml",
+              "ToolTip": "D:\\RestaurantOrderApp\\RestaurantOrderApp\\RestaurantOrderApp\\Pages\\FoodSearch.cshtml",
+              "RelativeToolTip": "RestaurantOrderApp\\Pages\\FoodSearch.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T12:25:33.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\RestaurantOrderApp\\RestaurantOrderApp\\RestaurantOrderApp\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "RestaurantOrderApp\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\RestaurantOrderApp\\RestaurantOrderApp\\RestaurantOrderApp\\Pages\\Index.cshtml",
+              "RelativeToolTip": "RestaurantOrderApp\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T12:22:31.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Food.cs",
+              "DocumentMoniker": "D:\\RestaurantOrderApp\\RestaurantOrderApp\\RestaurantOrderApp\\Models\\Food.cs",
+              "RelativeDocumentMoniker": "RestaurantOrderApp\\Models\\Food.cs",
+              "ToolTip": "D:\\RestaurantOrderApp\\RestaurantOrderApp\\RestaurantOrderApp\\Models\\Food.cs",
+              "RelativeToolTip": "RestaurantOrderApp\\Models\\Food.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T23:52:52.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\RestaurantOrderApp\\RestaurantOrderApp\\RestaurantOrderApp\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "RestaurantOrderApp\\Models\\Order.cs",
+              "ToolTip": "D:\\RestaurantOrderApp\\RestaurantOrderApp\\RestaurantOrderApp\\Models\\Order.cs",
+              "RelativeToolTip": "RestaurantOrderApp\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T23:48:54.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Order.cshtml",
+              "DocumentMoniker": "D:\\RestaurantOrderApp\\RestaurantOrderApp\\RestaurantOrderApp\\Pages\\Order.cshtml",
+              "RelativeDocumentMoniker": "RestaurantOrderApp\\Pages\\Order.cshtml",
+              "ToolTip": "D:\\RestaurantOrderApp\\RestaurantOrderApp\\RestaurantOrderApp\\Pages\\Order.cshtml",
+              "RelativeToolTip": "RestaurantOrderApp\\Pages\\Order.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T23:48:02.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Foods.cshtml",
+              "DocumentMoniker": "D:\\RestaurantOrderApp\\RestaurantOrderApp\\RestaurantOrderApp\\Pages\\Foods.cshtml",
+              "RelativeDocumentMoniker": "RestaurantOrderApp\\Pages\\Foods.cshtml",
+              "ToolTip": "D:\\RestaurantOrderApp\\RestaurantOrderApp\\RestaurantOrderApp\\Pages\\Foods.cshtml",
+              "RelativeToolTip": "RestaurantOrderApp\\Pages\\Foods.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T12:25:52.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Order.cshtml.cs",
+              "DocumentMoniker": "D:\\RestaurantOrderApp\\RestaurantOrderApp\\RestaurantOrderApp\\Pages\\Order.cshtml.cs",
+              "RelativeDocumentMoniker": "RestaurantOrderApp\\Pages\\Order.cshtml.cs",
+              "ToolTip": "D:\\RestaurantOrderApp\\RestaurantOrderApp\\RestaurantOrderApp\\Pages\\Order.cshtml.cs",
+              "RelativeToolTip": "RestaurantOrderApp\\Pages\\Order.cshtml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAnwCoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T23:48:13.069Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
