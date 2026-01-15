@@ -1,0 +1,79 @@
+﻿@page "{id:int}"
+@model RestaurantOrderApp.Pages.OrderModel
+@{
+    ViewData["Title"] = "Order";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order</title>
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+<body>
+    <!-- Navbar -->
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a asp-page="/Index">
+                    <img src="~/images/logo2.png" class="img-responsive" />
+                </a>
+            </div>
+            <div class="menu text-right">
+                <ul>
+                    <li><a asp-page="/Index">Home</a></li>
+                    <li><a asp-page="/Categories">Categories</a></li>
+                    <li><a asp-page="/Foods">Foods</a></li>
+                   
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </section>
+
+    <!-- Order Form -->
+    <section class="food-search">
+        <div class="container">
+            <h2 class="text-center text-white">Fill this form to confirm your order.</h2>
+
+            <form method="post" class="order">
+                <fieldset>
+                    <legend>Selected Food</legend>
+
+                    <div class="food-menu-img">
+                        <img src="@Model.SelectedFood?.ImageUrl" alt="@Model.SelectedFood?.Title" class="img-responsive img-curve" />
+                    </div>
+
+                    <div class="food-menu-desc">
+                        <h3>@Model.SelectedFood?.Title</h3>
+                        <p class="food-price">$@Model.SelectedFood?.Price</p>
+
+                        <div class="order-label">Quantity</div>
+                        <input asp-for="Order.Quantity" type="number" class="input-responsive" required />
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Details</legend>
+
+                    <div class="order-label">Full Name</div>
+                    <input asp-for="Order.FullName" class="input-responsive" required />
+
+                    <div class="order-label">Phone Number</div>
+                    <input asp-for="Order.Phone" class="input-responsive" required />
+
+                    <div class="order-label">Email</div>
+                    <input asp-for="Order.Email" class="input-responsive" required />
+
+                    <div class="order-label">Address</div>
+                    <textarea asp-for="Order.Address" rows="4" class="input-responsive" required></textarea>
+
+                    <input type="submit" value="Confirm Order" class="btn btn-primary" />
+                </fieldset>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

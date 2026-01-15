@@ -1,0 +1,82 @@
+﻿@page
+@model RestaurantOrderApp.Pages.FoodsModel
+@{
+    ViewData["Title"] = "Foods";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#"><img src="~/images/logo2.png" class="img-responsive" /></a>
+            </div>
+            <div class="menu text-right">
+                <ul>
+                    <li><a asp-page="/Index">Home</a></li>
+                    <li><a asp-page="/Categories">Categories</a></li>
+                    <li><a asp-page="/Foods">Foods</a></li>
+                    
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </section>
+
+    <!-- Arama -->
+    <section class="food-search text-center">
+        <div class="container">
+            <form asp-page="/FoodSearch" method="get">
+                <input type="search" name="search" placeholder="Search for Food.." required />
+                <input type="submit" value="Search" class="btn btn-primary" />
+            </form>
+        </div>
+    </section>
+
+    <!-- Menü -->
+    <section class="food-menu">
+        <div class="container">
+            <h2 class="text-center">Food Menu</h2>
+
+            @foreach (var food in Model.FoodList)
+            {
+                <div class="food-menu-box">
+                    <div class="food-menu-img">
+                        <img src="@food.ImageUrl" alt="@food.Title" class="img-responsive img-curve" />
+                    </div>
+                    <div class="food-menu-desc">
+                        <h4>@food.Title</h4>
+                        <p class="food-price">$@food.Price</p>
+                        <p class="food-detail">@food.Description</p>
+                        <br />
+                        <a asp-page="/Order" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            }
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+
+    <!-- Sosyal -->
+    <section class="social">
+        <div class="container text-center">
+            
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+       
+    </section>
+</body>
+</html>

@@ -1,0 +1,82 @@
+﻿@page
+@model RestaurantOrderApp.Pages.CategoryFoodsModel
+@{
+    ViewData["Title"] = "Category Foods";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+<body>
+
+    <!-- Navbar Section -->
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#" title="Logo">
+                    <img src="~/images/logo2.png" alt="Restaurant Logo" class="img-responsive" />
+                </a>
+            </div>
+
+            <div class="menu text-right">
+                <ul>
+                    <li><a asp-page="/Index">Home</a></li>
+                    <li><a asp-page="/Categories">Categories</a></li>
+                    <li><a asp-page="/Foods">Foods</a></li>
+                    
+                </ul>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+
+    <!-- Food Search Title -->
+    <section class="food-search text-center">
+        <div class="container">
+            <h2>Foods on <a href="#" class="text-white">"Category"</a></h2>
+        </div>
+    </section>
+
+    <!-- Food Menu -->
+    <section class="food-menu">
+        <div class="container">
+            <h2 class="text-center">Food Menu</h2>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="~/images/menu-pizza.jpg" alt="Pizza" class="img-responsive img-curve" />
+                </div>
+                <div class="food-menu-desc">
+                    <h4>Food Title</h4>
+                    <p class="food-price">$2.3</p>
+                    <p class="food-detail">Made with Italian Sauce, Chicken, and organic vegetables.</p>
+                    <br />
+                    <a asp-page="/Order" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <!-- Diğer yiyecek kutularını aynı şekilde ekleyebilirsin -->
+            <div class="clearfix"></div>
+        </div>
+    </section>
+
+    <!-- Social Media -->
+    <section class="social">
+        <div class="container text-center">
+            
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+       
+    </section>
+
+</body>
+</html>

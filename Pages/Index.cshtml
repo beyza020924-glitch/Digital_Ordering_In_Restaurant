@@ -1,0 +1,123 @@
+﻿@page
+@model RestaurantOrderApp.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+<body>
+
+    <!-- Navbar -->
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a asp-page="/Index">
+                    <img src="~/images/logo2.png" alt="Restaurant Logo" class="img-responsive" />
+                </a>
+            </div>
+            <div class="menu text-right">
+                <ul>
+                    <li><a asp-page="/Index">Home</a></li>
+                    <li><a asp-page="/Categories">Categories</a></li>
+                    <li><a asp-page="/Foods">Foods</a></li>
+                    
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </section>
+
+    <!-- Food Search -->
+    <section class="food-search text-center">
+        <div class="container">
+            <form method="get" asp-page="/FoodSearch">
+                <input type="search" name="search" placeholder="Search for Food.." required />
+                <input type="submit" value="Search" class="btn btn-primary" />
+            </form>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="text-center">Explore Foods</h2>
+
+            <a asp-page="/CategoryFoods">
+                <div class="box-3 float-container">
+                    <img src="~/images/pizza.jpg" alt="Pizza" class="img-responsive img-curve" />
+                    <h3 class="float-text text-white">Pizza</h3>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="box-3 float-container">
+                    <img src="~/images/burger.jpg" alt="Burger" class="img-responsive img-curve" />
+                    <h3 class="float-text text-white">Burger</h3>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="box-3 float-container">
+                    <img src="~/images/wrap.jpg" alt="Wrap" class="img-responsive img-curve" />
+                    <h3 class="float-text text-white">Wrap</h3>
+                </div>
+            </a>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+
+    <!-- Food Menu -->
+    <section class="food-menu">
+        <div class="container">
+            <h2 class="text-center">Food Menu</h2>
+
+            @if (Model.Foods != null && Model.Foods.Any())
+            {
+                foreach (var food in Model.Foods)
+                {
+                    <div class="food-menu-box">
+                        <div class="food-menu-img">
+                            <img src="@food.ImageUrl" alt="@food.Title" class="img-responsive img-curve" />
+                        </div>
+                        <div class="food-menu-desc">
+                            <h4>@food.Title</h4>
+                            <p class="food-price">$@food.Price</p>
+                            <p class="food-detail">@food.Description</p>
+                            <br />
+                            <a asp-page="/Order" asp-route-id="@food.Id" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <p class="text-center">No foods available.</p>
+            }
+
+            <div class="clearfix"></div>
+        </div>
+
+        <p class="text-center"><a asp-page="/Foods">See All Foods</a></p>
+    </section>
+
+    <!-- Social -->
+    <section class="social">
+        <div class="container text-center">
+            
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        
+    </section>
+
+</body>
+</html>

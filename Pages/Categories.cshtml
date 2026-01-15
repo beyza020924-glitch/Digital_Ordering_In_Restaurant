@@ -1,0 +1,82 @@
+﻿@page
+@model RestaurantOrderApp.Pages.CategoriesModel
+@{
+    ViewData["Title"] = "Categories";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+
+<body>
+    <!-- Navbar Section Starts Here -->
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#" title="Logo">
+                    <img src="~/images/logo2.png" alt="Restaurant Logo" class="img-responsive" />
+                </a>
+            </div>
+
+            <div class="menu text-right">
+                <ul>
+                    <li><a asp-page="/Index">Home</a></li>
+                    <li><a asp-page="/Categories">Categories</a></li>
+                    <li><a asp-page="/Foods">Foods</a></li>
+                    
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </section>
+
+    <!-- Categories Section Starts Here -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="text-center">Explore Foods</h2>
+
+            <a asp-page="/CategoryFoods">
+                <div class="box-3 float-container">
+                    <img src="~/images/pizza.jpg" alt="Pizza" class="img-responsive img-curve" />
+                    <h3 class="float-text text-white">Pizza</h3>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="box-3 float-container">
+                    <img src="~/images/burger.jpg" alt="Burger" class="img-responsive img-curve" />
+                    <h3 class="float-text text-white">Burger</h3>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="box-3 float-container">
+                    <img src="~/images/wrap.jpg" alt="Wrap" class="img-responsive img-curve" />
+                    <h3 class="float-text text-white">Wrap</h3>
+                </div>
+            </a>
+
+
+
+            <!-- Diğer blokları aynı şekilde tutabilir ya da bir döngüye aktarabiliriz -->
+            <div class="clearfix"></div>
+        </div>
+    </section>
+
+    <!-- Social Section -->
+    <section class="social">
+        <div class="container text-center">
+            
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        
+    </section>
+</body>
+</html>

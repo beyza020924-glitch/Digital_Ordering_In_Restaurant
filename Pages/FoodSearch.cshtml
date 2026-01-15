@@ -1,0 +1,78 @@
+﻿@page
+@model RestaurantOrderApp.Pages.FoodSearchModel
+@{
+    ViewData["Title"] = "Food Search";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+<body>
+    <!-- Navbar -->
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#"><img src="~/images/logo2.png" class="img-responsive" /></a>
+            </div>
+            <div class="menu text-right">
+                <ul>
+                    <li><a asp-page="/Index">Home</a></li>
+                    <li><a asp-page="/Categories">Categories</a></li>
+                    <li><a asp-page="/Foods">Foods</a></li>
+                    
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </section>
+
+    <!-- Search Başlığı -->
+    <section class="food-search text-center">
+        <div class="container">
+            <h2>Foods on Your Search <span class="text-white">"@Model.Search"</span></h2>
+        </div>
+    </section>
+
+    <!-- Örnek sabit içerik, sonra veritabanı ile dinamik olacak -->
+    <section class="food-menu">
+        <div class="container">
+            <h2 class="text-center">Food Menu</h2>
+
+            <!-- Arama sonucuna göre yemekler listelenebilir -->
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="~/images/menu-pizza.jpg" alt="Pizza" class="img-responsive img-curve" />
+                </div>
+                <div class="food-menu-desc">
+                    <h4>Pizza</h4>
+                    <p class="food-price">$2.3</p>
+                    <p class="food-detail">Made with Italian Sauce, Chicken, and organic vegetables.</p>
+                    <br />
+                    <a asp-page="/Order" class="btn btn-primary">Order Now</a>
+                </div>
+
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+
+
+
+    <!-- Sosyal ve footer -->
+    <section class="social">
+        <div class="container text-center">
+            
+        </div>
+    </section>
+
+    <section class="footer">
+       
+    </section>
+</body>
+</html>
